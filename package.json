@@ -1,0 +1,33 @@
+{
+  "name": "zeigmund",
+  "displayName": "Zeigmund",
+  "description": "Syntax highlighting for the Zeigmund scripting language",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "zeigmund",
+        "aliases": ["Zeigmund", "zeigmund"],
+        "extensions": [".zeigsrt", ".zeigmdl", ".zeigmfst"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "zeigmund",
+        "scopeName": "source.zeigmund",
+        "path": "./syntaxes/zeigmund.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/zeigmund-vscode"
+  },
+  "license": "MIT"
+}
