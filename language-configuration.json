@@ -1,0 +1,37 @@
+{
+  "comments": {
+    "blockComment": ["<​#", "#>"]
+  },
+  "brackets": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"],
+    ["@\"", "\"@"],
+    ["@'", "'@"]
+  ],
+  "autoClosingPairs": [
+    { "open": "{", "close": "}" },
+    { "open": "[", "close": "]" },
+    { "open": "(", "close": ")" },
+    { "open": "\"", "close": "\"" },
+    { "open": "'", "close": "'" },
+    { "open": "<​#", "close": "#>" },
+    { "open": "@\"", "close": "\"@" },
+    { "open": "@'", "close": "'@" }
+  ],
+  "surroundingPairs": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"],
+    ["\"", "\""],
+    ["'", "'"],
+    ["<​#", "#>"],
+    ["@\"", "\"@"],
+    ["@'", "'@"]
+  ],
+  "indentationRules": {
+    "increaseIndentPattern": "\\{\\s*$|\\bFunction\\b.*\\{|\\bClass\\b.*\\{|\\bIf\\b.*\\{|\\bElse\\b.*\\{|\\bWhile\\b.*\\{|\\bFor\\b.*\\{|\\bForEach\\b.*\\{|\\bTry\\b.*\\{|\\bCatch\\b.*\\{|\\bFinally\\b.*\\{",
+    "decreaseIndentPattern": "^\\s*\\}"
+  },
+  "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\#\\%\\^\\&\\*\\(\\)\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)"
+}
